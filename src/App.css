@@ -3,11 +3,10 @@
   resize: both;
   border: 1px solid green;
   overflow: auto;
-  flex-grow: 1;
   margin-top: 20px;
 }
-.top_div > div:nth-child(2){
-  flex-grow: 2;
+.top_div > div{
+  width: 300px;
 }
 .top_div {
   display: flex;
