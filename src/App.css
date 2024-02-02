@@ -6,7 +6,7 @@
   margin-top: 20px;
 }
 .top_div > div{
-  width: 300px;
+  width: min-content;
 }
 .top_div {
   display: flex;
@@ -17,4 +17,14 @@
 }
 .App{
   padding: 20px;
+}
+.form_list{
+  padding: 20px;
+}
+.form_list_input{
+  display: flex;
+  justify-content: center;
+}
+p{
+  margin: 20px 0px 0px;
 }
